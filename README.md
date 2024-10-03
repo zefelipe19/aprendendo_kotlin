@@ -1,4 +1,6 @@
 # Um guia basico de introdução a linguagem kotlin
+**Este é um guia introdutório da linguagem kotlin, todo o conteúdo de estudo será passado, por esse README, e 
+dentro do diretório src/, encontra-se um script que vai por em prática tudo que foi passado aqui.**
 ## O que é kotlin?
 Kotlin é uma linguagem **compilada** e **fortmiente tipada** isto é, todo o script é compilado e gerado um 
 *binário (executável)*, que é executado pelo sistema operacional e toda variável que é declarada 
@@ -18,7 +20,7 @@ Para declarar uma variável em kolin, preciamos inicia-la com **"val"** (para va
 
 *mediaDeCorte = 9* 
 
-*print("A média de corte é: ", mediaDeCorte)* // Kotlin: Val cannot be reassigned
+*print("A média de corte é: ${mediaDeCorte}")* // Kotlin: Val cannot be reassigned
 
 **Variável mutável**
 
@@ -26,7 +28,7 @@ Para declarar uma variável em kolin, preciamos inicia-la com **"val"** (para va
 
 *notaDoAluno = 10*
 
-*print("A nota do aluno é: ", nodaDoAluno)* // A nota do aluno é: 10
+*print("A nota do aluno é: ${notaDoAluno}")* // A nota do aluno é: 10
 
 ### Tipos básicos do kotln
 O kotlin possuí alguns tipos básicos, que com eles podemos criar tipos mais complexos para estruras de dados, são eles:

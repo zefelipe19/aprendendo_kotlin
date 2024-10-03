@@ -1,10 +1,13 @@
-// Aprendendo kotlin.
-/* A função main é a função que vai ser usada para executar o seu código kotlin, isto é  todo que precisa ser executado
-deve ser chamado/instanciado dentro do escopo dessa função.
+// Aprendendo Kotlin.
+// Nesse script você poderá ver de forma mais detalhada como funciona a sytaxe do kotlin,
+// além de aplicação dos fundamentos.
+
+
+/*
+Função main, está é a função pricipal do script, é nela que todas as suas outras funções e classes, vão ser
+executadas, então sem que exista uma função main no seu projeto, o seu script não poderá ser compilado/executado pelo
+kolin
 */
 fun main() {
-    val mediaDeCorte : Int = 7
-    var notaDoAluno: Int = 9
-
 
 }
